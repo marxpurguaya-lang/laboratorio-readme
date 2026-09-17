@@ -1,16 +1,44 @@
-# Tienda Online
+# 🛒 Tienda Online
+
+![Estado](https://img.shields.io/badge/estado-en%20desarrollo-yellow)
 
 Tienda Online es un proyecto de práctica desarrollado para aprender y aplicar Markdown avanzado en GitHub.
+El proyecto representa una tienda virtual donde los usuarios pueden consultar productos y gestionar sus pedidos.
 
-## Descripción
+## 📑 Tabla de contenidos
 
-Este proyecto representa una tienda virtual básica donde se pueden organizar productos y gestionar pedidos.
+- [Descripción](#descripcion)
+- [Instalación](#instalacion)
+- [Uso](#uso)
+- [Funcionalidades](#funcionalidades)
+- [Tareas pendientes](#tareas-pendientes)
+- [Arquitectura](#arquitectura)
+- [Contribuidores](#contribuidores)
 
-## Características
+## 📋 Descripción
 
-El proyecto busca presentar de manera sencilla las principales funciones de una tienda online.
+El proyecto simula una tienda online básica. Su objetivo es presentar de manera organizada las principales funciones de una tienda virtual y demostrar el uso de herramientas de Markdown avanzado y desarrollado.
 
-## Funcionalidades
+## ⚙️ Instalación
+
+Para instalar el proyecto, primero se debe clonar el repositorio y acceder a su carpeta:
+
+```bash
+git clone https://github.com/marxpurguaya-lan/laboratorio-readme.git
+cd laboratorio-readme
+```
+
+## ▶️ Uso
+
+Para abrir el proyecto en Visual Studio Code se puede utilizar el siguiente comando:
+
+```bash
+code .
+```
+
+Después de abrir el proyecto, se puede revisar el archivo `README.md` y los demás recursos disponibles.
+
+## 🚀 Funcionalidades
 
 | Funcionalidad         | Estado        |
 | --------------------- | ------------- |
@@ -19,16 +47,19 @@ El proyecto busca presentar de manera sencilla las principales funciones de una 
 | Carrito de compras    | En desarrollo |
 | Sistema de pagos      | Pendiente     |
 | Historial de pedidos  | Pendiente     |
-| Clientes recomendados | Pendiente     |
 
-- [x] Crear el repositorio
-- [ ] Implementar sistema de pagos
+## 📝 Tareas pendientes
 
-# Tienda Online
+- [x] Crear el repositorio en GitHub
+- [x] Crear el README
+- [x] Agregar un badge
+- [x] Crear la tabla de funcionalidades
+- [x] Agregar el diagrama Mermaid
+- [ ] Implementar el sistema de pagos
+- [ ] Agregar historial de pedidos
+- [ ] Realizar pruebas finales
 
-![Estado](https://img.shields.io/badge/estado-en%20desarrollo-yellow)
-
-## Arquitectura
+## 🏗️ Arquitectura
 
 ```mermaid
 graph LR
@@ -38,3 +69,11 @@ graph LR
     C --> E[Procesamiento de Pedidos]
     E --> D
 ```
+
+## 👨‍💻 Contribuidores
+
+**Marx Arturo Purguaya Vilca**
+
+GitHub: `marxpurguaya-lan`
+
+Estudiante de Diseño y Desarrollo de Software en Tecsup.
